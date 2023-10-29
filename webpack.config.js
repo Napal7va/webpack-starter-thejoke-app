@@ -10,6 +10,7 @@ module.exports = {
         path: path.resolve(__dirname, 'dist'),
         filename: '[name][contenthash].js',
     },
+    devtool: 'source-map',
     devServer:{
         static:{
             directory: path.resolve(__dirname, 'dost')
